@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    align-content: center;
+}
+.firsttext{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 69.12px;
+    font-family: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+}
+h3{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19.5px;
+    font-family: 400;
+    text-decoration: none solid rgb(0, 0, 0);
+}
+nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+}
+
+.icon {
+    display: none;
+}
+.buttondiv{
+    align-items: center;
+}
+.btndiv{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(224,49,49);
+    margin-left: 900px;
+    border-radius: 20px;
+    border-color: none;
+    margin-top: 10px;
+    font-size: 15px;
+   
+}
+.btndiv:hover{
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(224,49,49);
+    opacity: 60%;
+    margin-left: 900px;
+    border-radius: 20px;
+    border-color: none;
+    margin-top: 10px;
+    float: left;
+    font-size: 15px;
+   
+}
+.A{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.A1{
+    text-align: left;
+    margin-top: 40%;
+    font-size: 39px;
+}
+.A2{
+    font-size: 13px;
+    font-weight: 400;
+}
+.B{
+    display: flex;
+    justify-content: center;
+}
+.B1{
+    text-align: left;
+    margin-top: 40%;
+    font-size: 39px;
+}
+.B2{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.textB{
+    font-size: 57.6px;
+    font-weight: 400;
+    text-align: center;
+
+}
+.divc{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 70px;
+}
+
+h6{
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+
+@media screen and (max-width:850px) {
+    nav {
+        background-color: rgb(251, 251, 251);
+        height: 70px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+    }
+    .btndiv{
+        width: 130px;
+        height: 40px;
+        color: white;
+        background-color: rgb(224,49,49);
+        margin-left: -900px;
+        border-radius: 20px;
+        border-color: none;
+        margin-top: 10px;
+        float: left;
+        font-size: 15px;
+       
+    }
+}
+
+.heading1 {
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 49.176px;
+    /* line-height: 61.47px;
+    vertical-align:baseline;
+    letter-spacing:normal;
+    word-spacing:0px;
+    margin:0px 0px 8px;
+    padding:0px;
+    font-weight: 400;
+    font-stretch: 100%; */
+    font-weight: 350;
+}
+.h2{
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
